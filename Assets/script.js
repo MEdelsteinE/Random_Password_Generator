@@ -8,7 +8,6 @@ var Specials = '!@#$%^&*()-_+=<>?';
 var allCharacters = '';
 var complete = '';
 
-function writePassword() {
 var RequiresUCL = confirm('If you want uppercase letters please click ok');
 var RequiresLCL = confirm('If you want lowercase letters please click ok');
 var RequiresNums = confirm('If you want numbers please click ok');
@@ -55,9 +54,15 @@ for (var characters = 0; characters < totalchars; characters++) {
 }
 console.log(complete);
 
-var passwordText = document.querySelector("#password");
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
   passwordText.value = complete;
+
 }
 
-
 generateBtn.addEventListener("click", writePassword);
+function generatePassword() {
+  alert('Here is your password')
+}

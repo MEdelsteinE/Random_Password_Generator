@@ -3,14 +3,14 @@ This is a finished random password generator which allows an end user to create 
 
 https://medelsteine.github.io/Random_Password_Generator/
 
-![Alt text](image.png)
+![Alt text](./Assets/image.png)
 
-![Alt text](image-2.png)
+![Alt text](./Assets/image-2.png)
 
-![Alt text](image-3.png)
+![Alt text](./Assets/image-3.png)
 
-![Alt text](image-4.png)
+![Alt text](./Assets/image-4.png)
 
-![Alt text](image-5.png)
+![Alt text](./Assets/image-5.png)
 
-![Alt text](image-6.png)
+![Alt text](./Assets/image-6.png)

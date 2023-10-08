@@ -53,11 +53,8 @@ for (var characters = 0; characters < totalchars; characters++) {
 
   complete += allCharacters[index]
 }
-console.log(complete);
-
 var passwordText = document.querySelector("#password");
   passwordText.value = complete;
 }
-
 
 generateBtn.addEventListener("click", writePassword);
